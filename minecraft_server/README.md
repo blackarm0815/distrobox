@@ -15,4 +15,8 @@ tmux
 # run the server
 java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui
 
-# edit the eula and run the java command again
+# edit the eula, change false to true
+nano eula.txt
+
+# run the java command again
+java -Xms1024M -Xmx1024M -jar minecraft_server_1.20.1.jar nogui
